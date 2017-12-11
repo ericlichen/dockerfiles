@@ -1,5 +1,6 @@
-version: '2'
+version: "2"
 services:
-  devws:
-    image: 'ericlichen/devws'
+
+  ansible:
+    image: "${REGISTRY}/${IMAGE}:${TAG}"
     build: .

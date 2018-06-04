@@ -1,0 +1,5 @@
+version: "2"
+services:
+  devws-debian:
+    image: ericlichen/devws-debian:0.1
+    build: .
